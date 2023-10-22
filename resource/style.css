@@ -1,0 +1,1171 @@
+
+p { color: rgba(32, 32, 28, 0.952);}
+  
+html, body {
+    width: 100%;
+    height:100%;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+    margin: 0 0.5em 0 0;
+  }
+
+  
+  body {
+      background: linear-gradient(-45deg, #d6775a, #c97595, #73b8d1, #74968e);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      font-family: "Times New Roman", Times, serif;
+      color: rgba(32, 32, 28, 0.952);
+      margin-top: 15px;
+      text-align: center;
+  }
+
+  
+  @media (min-width: 720px) {
+
+  }
+  
+  
+
+
+@media (max-width: 500px) {
+    /* … */
+  }
+
+
+     /* Smartphones (portrait and landscape) ----------- */
+     @media only screen 
+     and (min-device-width : 320px) 
+     and (max-device-width : 480px) {
+     /* Styles */
+     .summary-section {
+        max-width: 480px;
+        margin-left: 40%;
+        margin-top: 15px;
+        text-align: center;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+        float: left;
+    }
+
+    .resume-section {
+        max-width: 480px;
+        float: left;
+        color: rgba(32, 32, 28, 0.952);
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    
+    .in-line-logos {
+        width: 5px;
+        border-radius: 100%;
+        display: inline;
+        margin-top: 1%;
+    }
+
+    .profile-section {
+        text-align: left;
+        width: 70%;
+        height: 800px;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 5.5%;
+        float: left;
+    }
+    footer {
+        margin-top: 100%;
+            
+    }
+
+
+    #portrait-img {
+        border: 0px solid #ddd;
+        width: 350px;
+        display: block;
+    }
+
+    .right-skill-section {
+        display: inline;
+    }
+
+    .left-skill-section {
+        display: inline;
+    }
+
+    body > main > div.profile-section > div > a:nth-child(1) > img {
+        width: 50px;
+        border-radius: 100%;
+        display: inline;
+    }
+
+    body > main > div.profile-section > div > a:nth-child(2) > img {
+        width: 50px;
+        border-radius: 100%;
+        display: inline;
+    }
+
+    body > main > div.profile-section > div > a:nth-child(3) > img {
+        width: 50px;
+        border-radius: 100%;
+        display: inline;
+    }
+
+    .education-section {
+        max-width: 500px;
+        margin-left: 40%;
+        margin-top: 15px;
+        text-align: center;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+    }
+
+    .right-skill-section {
+        float: right;
+    }
+
+    .left-skill-section {
+        float: left
+    }
+
+    .left-skill-section > ul {
+        text-align: left;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .left-skill-section > ul > li {
+        font-size: 1.2em;
+        margin-right: -10%;
+        display: list-item;
+        margin-left: 25%;
+        padding: 5%;
+        list-style: none;
+        
+    }
+
+    .left-skill-section > ul > li > span {
+        width: 25px;
+        float: right;
+        display: inline;
+        margin-bottom: 20%;
+        margin-top: -02.0%;
+        color: yellow;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1px;
+    }
+
+
+    .right-skill-section > ul {
+        text-align: left;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .right-skill-section > ul > li {
+        font-size: 1.2em;
+        float: right;
+        text-align: left;
+        display: list-item;
+        margin-left: 5%;
+    }
+
+    
+    .right-skill-section > ul > li > span {
+        width: 25px;
+        display: inline;
+        color: yellow;
+    }
+
+    
+    .skill-section {
+        max-width: 900px;
+        margin-left: 30%;
+        margin-top: 15px;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+        border-color: black;
+        border-width: 5px;
+        height: 700px;
+        padding-right: 7%;
+    }
+     /* Styles */
+     }
+ 
+     /* Smartphones (landscape) ----------- */
+     @media only screen 
+     and (min-width : 321px) {
+        body > main > div.portrait-section > img[id='portrait-img'] {
+            width: 5%;
+            height: 5%;
+    }
+     /* Styles */
+     }
+ 
+     /* Smartphones (portrait) ----------- */
+     @media only screen 
+     and (max-width : 320px) {
+     /* Styles */
+
+         /* Styles */
+         .summary-section {
+            max-width: 500px;
+            margin-left: 40%;
+            margin-top: 15px;
+            text-align: center;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+
+        
+        .work-experience-section {
+            max-width: 70%;
+            margin-left: 12.5%;
+            margin-top: 1em;
+            text-align: left;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+    
+        .resume-section {
+            max-width: 1000px;
+            margin-left: 30%;
+            color: rgba(32, 32, 28, 0.952);
+            margin-top: 15px;
+            text-align: center;
+        }
+        
+        
+        .in-line-logos {
+            width: 5px;
+            border-radius: 100%;
+            display: inline;
+            margin-top: 1%;
+        }
+    
+        .profile-section {
+            text-align: left;
+            width: 90%;
+            height: 568px;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 5.5%;
+            float: left;
+        }
+        footer {
+            margin-top: auto;
+                
+        }
+    
+    
+        #portrait-img {
+            border: 0px solid #ddd;
+            width: 350px;
+            display: block;
+        }
+    
+        .right-skill-section {
+            display: inline;
+        }
+    
+        .left-skill-section {
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(1) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(2) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(3) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        .education-section {
+            max-width: 500px;
+            margin-left: 40%;
+            margin-top: 15px;
+            text-align: center;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+    
+        .right-skill-section {
+            float: right;
+        }
+    
+        .left-skill-section {
+            float: left
+        }
+    
+        .left-skill-section > ul {
+            text-align: left;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+    
+    
+        .left-skill-section > ul > li {
+            font-size: 1.2em;
+            margin-right: -10%;
+            display: list-item;
+            margin-left: 25%;
+            padding: 5%;
+            list-style: none;
+            
+        }
+    
+        .left-skill-section > ul > li > span {
+            width: 25px;
+            float: right;
+            display: inline;
+            margin-bottom: 20%;
+            margin-top: -02.0%;
+            color: yellow;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 1px;
+        }
+    
+    
+        .right-skill-section > ul {
+            text-align: left;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+    
+        .right-skill-section > ul > li {
+            font-size: 1.2em;
+            float: right;
+            text-align: left;
+            display: list-item;
+            margin-left: 5%;
+        }
+    
+        
+        .right-skill-section > ul > li > span {
+            width: 25px;
+            display: inline;
+            color: yellow;
+        }
+    
+        
+        .skill-section {
+            max-width: 900px;
+            margin-left: 30%;
+            margin-top: 15px;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+            border-color: black;
+            border-width: 5px;
+            height: 700px;
+            padding-right: 7%;
+        }
+     }
+ 
+     /* Tablet (portrait and landscape) ----------- */
+     @media only screen 
+     and (min-device-width : 768px) 
+     and (max-device-width : 1024px) {
+        body > main > div.portrait-section > img[id='portrait-img'] {
+            width: 5%;
+            height: 5%;
+    }
+         }
+     
+         /* Tablet (portrait) ----------- */
+         @media only screen 
+         and (min-device-width : 768px) 
+         and (max-device-width : 1024px) 
+         and (orientation : portrait) {
+         /* Styles */
+         body > main > div.portrait-section > img[id='portrait-img'] {
+            width: 5%;
+            height: 5%;
+    }
+         }
+     
+         /* Tablet (portrait) ----------- */
+         @media only screen 
+         and (min-device-width : 768px) 
+         and (max-device-width : 1024px) 
+         and (orientation : portrait) {
+         /* Styles */
+         body > main > div.portrait-section > img[id='portrait-img'] {
+            width: 5%;
+            height: 5%;
+    }
+         }
+     
+         /* Desktops and laptops ----------- */
+         @media only screen 
+         and (min-width : 1224px) {
+         /* Styles */
+         .summary-section {
+            max-width: 500px;
+            margin-left: 40%;
+            margin-top: 15px;
+            text-align: center;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+    
+        .resume-section {
+            max-width: 500px;
+            margin-left: 40%;
+            color: rgba(32, 32, 28, 0.952);
+            margin-top: 15px;
+            text-align: center;
+        }
+        
+        
+        .in-line-logos {
+            width: 5px;
+            border-radius: 100%;
+            display: inline;
+            margin-top: 1%;
+        }
+    
+        .profile-section {
+            text-align: left;
+            width: 450px;
+            height: 568px;
+            margin-left: 50px;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 5.5%;
+            float: left;
+        }
+    
+    
+        #portrait-img {
+            border: 0px solid #ddd;
+            width: 350px;
+            display: block;
+        }
+    
+        .right-skill-section {
+            display: inline;
+        }
+    
+        .left-skill-section {
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(1) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(2) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(3) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+    h2 {
+        text-decoration: underline;
+    }
+        
+        .skill-section {
+            max-width: 500px;
+            margin-left: 40%;
+            margin-top: 15px;
+            text-align: left;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+         }
+     
+         /* Desktops and laptops ----------- */
+         @media only screen 
+         and (min-width : 1224px) {
+         /* Styles */
+         .summary-section {
+            max-width: 500px;
+            margin-left: 40%;
+            margin-top: 15px;
+            text-align: center;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+    
+        .resume-section {
+            max-width: 500px;
+            margin-left: 40%;
+            color: rgba(32, 32, 28, 0.952);
+            margin-top: 15px;
+            text-align: center;
+        }
+        
+        
+        .in-line-logos {
+            width: 5px;
+            border-radius: 100%;
+            display: inline;
+            margin-top: 1%;
+        }
+    
+        .profile-section {
+            text-align: left;
+            width: 450px;
+            height: 568px;
+            margin-left: 50px;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 5.5%;
+            float: left;
+        }
+    
+    
+        #portrait-img {
+            border: 0px solid #ddd;
+            width: 250px;
+            display: block;
+        }
+    
+        .right-skill-section {
+            display: inline;
+        }
+    
+        .left-skill-section {
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(1) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(2) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(3) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        .work-experience-section > h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+    
+        .work-experience-section > hr {
+            color: black;
+            border-radius: .05%;
+            border-color: black;
+        }
+
+        .work-experience-section {
+            max-width: 700px;
+            margin-left: 35%;
+            margin-top: 15px;
+            text-align: left;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+        
+        .skill-section {
+            max-width: 500px;
+            margin-left: 40%;
+            margin-top: 15px;
+            text-align: center;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+     /* Styles */
+     }
+ 
+     /* Tablet (landscape) ----------- */
+     @media only screen 
+     and (min-device-width : 768px) 
+     and (max-device-width : 1024px) 
+     and (orientation : landscape) {
+     /* Styles */
+
+     }
+ 
+     /* Tablet (portrait) ----------- */
+     @media only screen 
+     and (min-device-width : 768px) 
+     and (max-device-width : 1024px) 
+     and (orientation : portrait) {
+             /* Styles */
+     .summary-section {
+        max-width: 500px;
+        margin-left: 40%;
+        margin-top: 15px;
+        text-align: center;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+    }
+
+
+    .awards-section {
+        max-width: 500px;
+        margin-left: 40%;
+        margin-top: 15px;
+        text-align: center;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+    }
+
+
+    .resume-section {
+        max-width: 1000px;
+        margin-left: 30%;
+        color: rgba(32, 32, 28, 0.952);
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    
+    .in-line-logos {
+        width: 5px;
+        border-radius: 100%;
+        display: inline;
+        margin-top: 1%;
+    }
+    
+
+    .profile-section {
+        text-align: left;
+        width: 450px;
+        height: 800px;
+        margin-left: 50px;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 5.5%;
+        float: left;
+    }
+    footer {
+        margin-top: auto;
+            
+    }
+
+
+    #portrait-img {
+        border: 0px solid #ddd;
+        width: 350px;
+        display: block;
+    }
+
+    .right-skill-section {
+        display: inline;
+    }
+
+    .left-skill-section {
+        display: inline;
+    }
+
+    body > main > div.profile-section > div > a:nth-child(1) > img {
+        width: 50px;
+        border-radius: 100%;
+        display: inline;
+    }
+
+    body > main > div.profile-section > div > a:nth-child(2) > img {
+        width: 50px;
+        border-radius: 100%;
+        display: inline;
+    }
+
+    body > main > div.profile-section > div > a:nth-child(3) > img {
+        width: 50px;
+        border-radius: 100%;
+        display: inline;
+    }
+
+    .education-section {
+        max-width: 500px;
+        margin-left: 40%;
+        margin-top: 15px;
+        text-align: center;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+    }
+
+    .right-skill-section {
+        float: right;
+    }
+
+    .left-skill-section {
+        float: left
+    }
+
+    .left-skill-section > ul {
+        text-align: left;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .left-skill-section > ul > li {
+        font-size: 1.2em;
+        margin-right: -10%;
+        display: list-item;
+        margin-left: 25%;
+        padding: 5%;
+        list-style: none;
+        
+    }
+
+    .left-skill-section > ul > li > span {
+        width: 25px;
+        float: right;
+        display: inline;
+        margin-bottom: 20%;
+        margin-top: -02.0%;
+        color: yellow;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1px;
+    }
+
+
+    .right-skill-section > ul {
+        text-align: left;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .right-skill-section > ul > li {
+        font-size: 1.2em;
+        float: right;
+        text-align: left;
+        display: list-item;
+        margin-left: 5%;
+    }
+
+    
+    .right-skill-section > ul > li > span {
+        width: 25px;
+        display: inline;
+        color: yellow;
+    }
+
+    
+    .skill-section {
+        max-width: 900px;
+        margin-left: 30%;
+        margin-top: 15px;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+        border-color: black;
+        border-width: 5px;
+        height: 700px;
+        padding-right: 7%;
+    }
+     }
+ 
+     /* Desktops and laptops ----------- */
+     @media only screen 
+     and (min-width : 1224px) {
+     /* Styles */
+     .summary-section {
+        max-width: 500px;
+        margin-left: 40%;
+        margin-top: 15px;
+        text-align: center;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+    }
+
+
+    .awards-section {
+        max-width: 500px;
+        margin-left: 40%;
+        margin-top: 15px;
+        text-align: center;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+    }
+
+
+    .resume-section {
+        max-width: 1000px;
+        margin-left: 30%;
+        color: rgba(32, 32, 28, 0.952);
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    
+    .in-line-logos {
+        width: 5px;
+        border-radius: 100%;
+        display: inline;
+        margin-top: 1%;
+    }
+    
+
+    .profile-section {
+        text-align: left;
+        width: 450px;
+        height: 800px;
+        margin-left: 50px;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 3.5%;
+        float: left;
+    }
+    footer {
+        margin-top: auto;
+            
+    }
+
+
+    #portrait-img {
+        border: 0px solid #ddd;
+        width: 350px;
+        display: block;
+    }
+
+    .right-skill-section {
+    }
+
+    .left-skill-section {
+    }
+
+    body > main > div.profile-section > div > a:nth-child(1) > img {
+        width: 50px;
+        border-radius: 100%;
+        display: inline;
+    }
+
+    body > main > div.profile-section > div > a:nth-child(2) > img {
+        width: 50px;
+        border-radius: 100%;
+        display: inline;
+    }
+
+    body > main > div.profile-section > div > a:nth-child(3) > img {
+        width: 50px;
+        border-radius: 100%;
+        display: inline;
+    }
+
+    .education-section {
+        max-width: 500px;
+        margin-left: 40%;
+        margin-top: 15px;
+        text-align: center;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+    }
+
+    .right-skill-section {
+        float: right;
+    }
+
+    .left-skill-section {
+        float: left
+    }
+
+    .left-skill-section > ul {
+        text-align: left;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .left-skill-section > ul > li {
+        font-size: 1.2em;
+        margin-right: -10%;
+        display: list-item;
+        margin-left: 25%;
+        padding: 5%;
+        list-style: none;
+        
+    }
+
+    .left-skill-section > ul > li > span {
+        width: 25px;
+        float: right;
+        display: inline;
+        margin-bottom: 20%;
+        margin-top: -02.0%;
+        color: yellow;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1px;
+    }
+
+
+    .right-skill-section > ul {
+        text-align: left;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .right-skill-section > ul > li {
+        font-size: 1.2em;
+        float: right;
+        text-align: left;
+        display: list-item;
+        margin-left: 5%;
+        padding: 5%;
+    }
+
+    
+    .right-skill-section > ul > li > span {
+        width: 25px;
+        display: inline;
+        color: yellow;
+    }
+
+    
+    .skill-section {
+        max-width: 900px;
+        margin-left: 30%;
+        margin-top: 15px;
+        background-color: #eab5c9;
+        border-radius: 25px;
+        padding: 1.5%;
+        border-color: black;
+        border-width: 5px;
+        height: 700px;
+        padding-right: 7%;
+    }
+
+     }
+ 
+     /* Large screens ----------- */
+     @media only screen 
+     and (min-width : 1824px) {
+        .summary-section {
+            max-width: 500px;
+            margin-left: 40%;
+            margin-top: 15px;
+            text-align: center;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+    
+    
+        .awards-section {
+            max-width: 500px;
+            margin-left: 40%;
+            margin-top: 15px;
+            text-align: center;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+    
+    
+        .resume-section {
+            max-width: 1000px;
+            margin-left: 30%;
+            color: rgba(32, 32, 28, 0.952);
+            margin-top: 15px;
+            text-align: center;
+        }
+        
+        
+        .in-line-logos {
+            width: 5px;
+            border-radius: 100%;
+            display: inline;
+            margin-top: 1%;
+        }
+        
+    
+        .profile-section {
+            text-align: left;
+            width: 450px;
+            height: 900px;
+            margin-left: 50px;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 3.5%;
+            float: left;
+        }
+        footer {
+            margin-top: auto;
+                
+        }
+    
+    
+        #portrait-img {
+            border: 0px solid #ddd;
+            width: 350px;
+            display: block;
+        }
+    
+        .right-skill-section {
+            display: inline;
+        }
+    
+        .left-skill-section {
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(1) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(2) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        body > main > div.profile-section > div > a:nth-child(3) > img {
+            width: 50px;
+            border-radius: 100%;
+            display: inline;
+        }
+    
+        .education-section {
+            max-width: 500px;
+            margin-left: 40%;
+            margin-top: 15px;
+            text-align: center;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+        }
+    
+        .right-skill-section {
+            float: right;
+        }
+    
+        .left-skill-section {
+            float: left
+        }
+    
+        .left-skill-section > ul {
+            text-align: left;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+    
+    
+        .left-skill-section > ul > li {
+            font-size: 1.2em;
+            margin-right: -10%;
+            display: list-item;
+            margin-left: 25%;
+            padding: 5%;
+            list-style: none;
+            
+        }
+    
+        .left-skill-section > ul > li > span {
+            width: 25px;
+            float: right;
+            margin-bottom: 20%;
+            margin-top: -02.0%;
+            color: yellow;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 1px;
+        }
+    
+    
+        .right-skill-section > ul {
+            text-align: left;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+    
+        .right-skill-section > ul > li {
+            font-size: 1.2em;
+            text-align: left;
+            display: list-item;
+            margin-left: 5%;
+            padding: 5%;
+            list-style: none;
+        }
+    
+        
+        /* .right-skill-section > ul > li > span {
+            width: 25px;
+            color: yellow;
+        } */
+    
+        
+        .skill-section {
+            max-width: 900px;
+            margin-left: 30%;
+            margin-top: 15px;
+            background-color: #eab5c9;
+            border-radius: 25px;
+            padding: 1.5%;
+            border-color: black;
+            border-width: 5px;
+            height: 700px;
+            padding-right: 7%;
+        }
+    
+
+     /* Styles */
+     }
