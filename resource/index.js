@@ -6,6 +6,7 @@ function reverseStr(){
         reversedString += x[i];
     }
     document.getElementById('result-text').innerText = reversedString;
+    document.getElementById('name').value = "";
 }
 
 function palindroneCheck(){
@@ -21,6 +22,7 @@ function palindroneCheck(){
 
         }
         document.getElementById('result-text-palidrone').innerText = s + " is a palidrone";
+        document.getElementById('palidrone').value = ""; 
         return true;
 }
 
@@ -31,7 +33,9 @@ function tipCaculate(){
     let v = y / 100;
     let tip = x * v;
     const result = x + tip;
-    document.getElementById('result-text-bill-calculator').innerText = `Subtotal: $${x.toFixed(2)}\n Tip:$${tip.toFixed(2)}\n$${result.toFixed(2)} is the bill total.`
+    document.getElementById('result-text-bill-calculator').innerText = `Subtotal: $${x.toFixed(2)}\n Tip:$${tip.toFixed(2)}\n$${result.toFixed(2)} is the bill total.`;
+    document.getElementById('subtotal').value = "";
+    document.getElementById('tip-percentage').value = "";
 }
 
 function select_on(node) {
